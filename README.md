@@ -43,3 +43,17 @@ Ejecutar todas las pruebas:
 ```bash
 python3 -m pytest
 
+
+## Módulo de Visualización y Reportes
+
+El proyecto ahora incluye un módulo `plots.py` en `src/visualizations/` para generar gráficos a partir de los datos analizados.
+
+- `plot_monthly_sales_trend`: Genera un gráfico de línea de las ventas mensuales.
+- `plot_segmented_sales`: Genera un gráfico de barras agrupando por categorías.
+
+También hay un módulo `report_generator.py` en `src/reports/` que permite crear reportes en PDF con KPIs y gráficos.
+
+### Ejecución de las Pruebas
+
+```bash
+python3 -m pytest
