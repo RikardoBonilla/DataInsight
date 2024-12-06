@@ -29,4 +29,17 @@ Para ejecutar las pruebas unitarias:
 ```bash
 python3 -m pytest
 
+## Módulo de Análisis de Datos
+
+El módulo `analytics.py` ubicado en `src/models/` proporciona funciones para:
+- Calcular KPIs (ventas totales, margen de beneficio, etc.)
+- Analizar tendencias (crecimiento mensual)
+- Segmentar datos (por producto, región, etc.)
+
+### Ejecución de Pruebas
+
+Ejecutar todas las pruebas:
+
+```bash
+python3 -m pytest
 
