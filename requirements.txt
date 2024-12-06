@@ -6,3 +6,6 @@ seaborn
 reportlab
 plotly
 openpyxl
+dash
+dash-bootstrap-components
+

@@ -57,3 +57,13 @@ También hay un módulo `report_generator.py` en `src/reports/` que permite crea
 
 ```bash
 python3 -m pytest
+
+
+## Interfaz de Usuario (Sprint 5)
+
+Ahora DataInsight cuenta con una interfaz web construida con Dash.
+
+### Cómo Ejecutar la Interfaz
+1. Asegúrate de tener instalado todo:
+   ```bash
+   pip install -r requirements.txt
