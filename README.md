@@ -21,3 +21,11 @@
 
    ```bash
    git clone https://github.com/RikardoBonilla/DataInsight.git
+
+## Ejecución de Pruebas
+
+Para ejecutar las pruebas unitarias:
+
+```bash
+python -m pytest
+
