@@ -26,4 +26,3 @@ def test_validate_data():
     assert len(df_limpio) == 2
     assert "fecha" in df_limpio.columns
     assert df_limpio["fecha"].dtype == "datetime64[ns]"
-
